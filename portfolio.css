@@ -1,5 +1,75 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-grid2-section-2 {
+  background-color: #FFDD78;
+  color: black;
+  height: 352px;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin: auto;
+}
+.main-grid2-section-2 #main1-grid-section-2 {
+  display: grid;
+  gap: 30px;
+  justify-content: center;
+}
+.main-grid2-section-2 #main1-grid-section-2 h5 {
+  width: 107px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  color: #000000;
+}
+.main-grid2-section-2 #main1-grid-section-2 h2 {
+  width: 516px;
+  display: flex;
+  font-family: DM Serif Display;
+  font-size: 56px;
+}
+.main-grid2-section-2 #main2-grid-section-2 {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.main-grid2-section-2 #main2-grid-section-2 input {
+  width: 370px;
+  height: 48px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.main-grid2-section-2 #main2-grid-section-2 input::-moz-placeholder {
+  font-size: 20px;
+  padding-left: 10px;
+}
+.main-grid2-section-2 #main2-grid-section-2 input::placeholder {
+  font-size: 20px;
+  padding-left: 10px;
+}
+.main-grid2-section-2 #main2-grid-section-2 button {
+  background-color: #434CCC;
+  color: white;
+  width: 170px;
+  height: 48px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+.main-grid2-section-2 #main2-grid-section-2 button:hover {
+  background-color: #0f1de5;
+=======
 }
 
 .header1 {
