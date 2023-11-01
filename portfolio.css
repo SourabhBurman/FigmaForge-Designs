@@ -31,7 +31,8 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  /* 150% */
 }
 .header1 h3 {
   margin-top: 16px;
@@ -41,7 +42,8 @@
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: 48px; /* 120% */
+  line-height: 48px;
+  /* 120% */
 }
 .header1 button {
   margin-top: 16px;
@@ -57,7 +59,8 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  /* 150% */
 }
 
 .header2 {
@@ -78,7 +81,8 @@
   font-size: 72px;
   font-style: normal;
   font-weight: 400;
-  line-height: 80px; /* 111.111% */
+  line-height: 80px;
+  /* 111.111% */
 }
 .header2 p {
   margin-top: 10px;
@@ -89,5 +93,6 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px; /* 160% */
+  line-height: 32px;
+  /* 160% */
 }/*# sourceMappingURL=portfolio.css.map */
