@@ -1,6 +1,55 @@
-.main-grid-section-2{
-    background-color: red;
-    color: blue;
-    }
+.main-grid2-section-2 {
+   background-color: rgb(238, 200, 8);
+   color: black;
+   height: 352px;
+   width: 1440px;
+   display: flex;
+}
 
-/*# sourceMappingURL=portfolio.css.map */
+.main-grid2-section-2 h5 {
+   padding-top: 50px;
+   padding-left: 135px;
+   height: 24px;
+   width: 107px;
+   font-family: DM Sans;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 30%;
+   color: #000000;
+}
+
+.main-grid2-section-2 h2 {
+   padding-left: 135px;
+   height: 128px;
+   width: 516px;
+   display: flex;
+   padding-top: 45;
+   font-family: DM Serif Display;
+   font-size: 56px;
+   line-height: 64px;
+}
+
+ #main1-grid-section-2 input {
+   width: 170px;
+   height: 48px;
+   padding-left: 135px;
+   padding-top:90px ;
+}
+
+#main2-grid-section-2 button {
+   background-color: #434CCC;
+   color: white;
+   width: 170px;
+   height: 48px;
+   border-radius: 10px;
+   border: none;
+   text-align: center;
+}
+   /* padding-left: 1135px; */
+   /* #main2-grid-section-2 input{
+width: 80px;
+height: 20px;
+/* margin-left: 735px; */
+   
+/* # sourceMappingURL=portfolio.css.map */
