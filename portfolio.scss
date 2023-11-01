@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -92,3 +93,387 @@
 
     }
 }
+=======
+
+$color: var(--Text_White, #FFF);
+$font-family: DM Serif Display;
+$font-style: normal;
+$font-weight: 400;
+
+* {
+    margin: 0;
+}
+
+@mixin header {
+    width: 1440px;
+    flex-shrink: 0;
+    display: flex;
+    background: #434CCC;
+}
+
+.header1 {
+    @include header;
+    height: 80px;
+    box-sizing: border-box;
+    padding-left: 135px;
+    padding-right: 135px;
+    justify-content: space-between;
+
+    div {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 534px;
+        margin-right: 40px;
+        width: 324px;
+        height: 24px;
+        justify-content: space-between;
+    }
+
+    a {
+        color: var(--Text_White, #FFF);
+        text-align: right;
+        text-decoration: none;
+
+        /* Text */
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        /* 150% */
+    }
+
+    h3 {
+        margin-top: 16px;
+        color: $color;
+        /* H3 */
+        font-family: $font-family;
+        font-size: 40px;
+        font-style: $font-style;
+        font-weight: $font-weight;
+        line-height: 48px;
+        /* 120% */
+    }
+
+    button {
+        margin-top: 16px;
+        width: 170px;
+        height: 48px;
+        flex-shrink: 0;
+        border-color: rgba(255, 255, 255, 0.3);
+        background-color: transparent;
+        border-radius: 5px;
+        // text
+        color: #FFF;
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        /* 150% */
+
+    }
+}
+
+.header2 {
+    @include header;
+    height: 224px;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        margin-top: 47px;
+        color: var(--Text_White, #FFF);
+        text-align: center;
+        /* H1 */
+        font-family: $font-family;
+        font-size: 72px;
+        font-style: $font-style;
+        font-weight: $font-weight;
+        line-height: 80px;
+        /* 111.111% */
+    }
+
+    p {
+        margin-top: 10px;
+        color: var(--Text_White, #FFF);
+        text-align: center;
+
+        /* Text_Big */
+        font-family: DM Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        /* 160% */
+    }
+}
+=======
+
+// for removing the default stylings
+*{
+    margin: 0;
+    padding: 0;
+}
+//==============
+
+
+.div{
+background-color: red;
+color: blue;
+}
+
+
+// second section vishnuraj scss start
+
+
+
+@mixin smallgrids_p($wd,$hei,$fs,$fw,$col){
+    
+    width: $wd;
+    height: $hei;
+    font-size: $fs;
+    font-weight: $fw;
+    color: $col;
+    padding-top: 12%;
+}
+@mixin smallgrid_h1($wd,$hei,$fs,$lh,$col){
+    width: $wd;
+    height: $hei;
+    font-size: $fs;
+    line-height: $lh;      
+    color:$col ;
+    margin-top: 25px;
+    margin-bottom: 28px;
+}
+@mixin smallgrid_b($col,$bgc,$bor,$br,$fs,$wd,$hei){
+    color: $col;
+    background-color: $bgc;
+    border:$bor;
+    
+    border-radius: $br;
+    font-size: $fs;
+    width: $wd;
+    height: $hei;
+}
+.second-section-main{
+    max-width: 1440px;
+    height: auto;
+    // background-color: rgb(16, 196, 82);
+    padding: 0 9.375%;
+    .second-section-main1{
+        width: 100%;
+        height: 100px;
+        // background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        font-family: sans-serif;
+        border: 1px solid red;
+        h4{
+            width: 92px;
+            height: 24px;
+            margin:0 20px;
+            
+        }
+        div{
+            width: 403px;
+            height: 24px;
+            display: flex;
+            justify-content: space-evenly;
+            
+            
+            color: grey;
+            p{
+                padding-right: 10px;
+            }
+        }
+        // p{
+        //     display: flex;
+        //     color: grey;
+        //     padding-right: 20px;
+        //     font-size: 16px;
+        // }
+    }
+    .second-section-main2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        gap: 30px;
+        .section-section-grid1{
+            grid-area: 1/1/2/3;
+            height: 512px;
+            background-position-x: right;
+            background-image: url("images/img 1.png");
+            border-radius: 5px;
+            
+            padding-left: 10%;
+            
+            p{
+                
+                width: 78px;
+                height: 24px;
+                font-size: 16px;
+                font-weight: 400;
+                color: #f8da82;
+                padding-top: 12%;
+            }
+            h1{
+                
+                width: 370px;
+                height: 128px;
+                font-size: 56px;
+                line-height: 64px;      
+                color:#ffffff ;
+                margin-top: 25px;
+                margin-bottom: 28px;
+            }
+            button{
+                color: white;
+                background-color: #f1b505;
+                border: 1px solid #f8da82;
+                border-radius: 8px;
+                width: 170px;
+                height: 48px;
+            }
+            
+        }
+        // small divs
+        .section-section-grid2{
+            height: 512px;
+            
+            background-image: url("images/img 2.png");
+            // background-position-x: right;
+            padding-left: 10%;
+            background-size: cover;
+            border-radius: 5px;
+            p{
+                @include smallgrids_p(67px,24px,16px,400,#f0807e) ;
+                
+            }
+            h1{
+                @include smallgrid_h1(161px,96px,24px,32px,white) ;
+                
+            }
+            button{
+                @include smallgrid_b(white,#e94a47,1px solid #f0807e,8px,20px,48px,48px);
+                
+            }
+        }
+        .section-section-grid3{
+            height: 512px;
+            
+            background-image: url("images/img 3.png");
+            // background-position-x: right;
+            padding-left: 10%;
+            background-size: cover;
+            border-radius: 5px;
+            p{
+                @include smallgrids_p(71px,24px,16px,400,#a0c6fe) ;
+                
+            }
+            h1{
+                @include smallgrid_h1(161px,96px,24px,32px,#ffffff ) ;
+                
+            }
+            button{
+                @include smallgrid_b(white,#428dfc,1px solid #a0c6fe,8px,20px,48px,48px);
+                
+            }
+        }
+        .section-section-grid4{
+            height: 512px;
+            border-radius: 5px;
+            background-image: url("images/img 4.png");
+            // background-position-x: right;
+            padding-left: 10%;
+            background-size: cover;
+            p{
+                @include smallgrids_p(60px,24px,16px,400,#f8da82) ;
+                
+            }
+            h1{
+                @include smallgrid_h1(111px,96px,24px,32px,#ffffff ) ;
+                
+            }
+            button{
+                @include smallgrid_b(white,#f1b505,1px solid #f8da82,8px,20px,48px,48px);
+                
+            }
+        }
+        .section-section-grid5{
+            height: 512px;
+            border-radius: 5px;
+            background-image: url("images/img 5.png");
+            // background-position-x: right;
+            padding-left: 10%;
+            background-size: cover;
+            p{
+                @include smallgrids_p(79px,24px,16px,400,#a1a6e6) ;
+                
+            }
+            h1{
+                @include smallgrid_h1(129px,96px,24px,32px,#ffffff ) ;
+                
+            }
+            button{
+                @include smallgrid_b(white,#434ccc,1px solid #a1a6e6,8px,20px,48px,48px);
+                
+            }
+        }
+
+    }
+    .second-section-main3{
+        width: 100%;
+        height: 100px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button{
+            width:48px ;
+            height: 48px;
+            border: 1px solid #bcc0ed;
+            border-radius: 5px;
+            color: #434ccc;
+            font-size:16px ;
+            font-weight: 700;
+            margin-left: 10px;
+
+            
+            
+        }
+        
+    }
+}
+@media screen  and (max-width:375px) {
+    
+    // .second-section-main1{
+        
+    //     h4{
+    //         left: 0;
+    //     }
+    //     div{
+
+
+    //         p{
+    //             padding-right: 10px;
+    //         }
+    //     }
+    // }
+    // .section-section-grid1{
+    //     display: none;
+    // }
+    .second-section-main2{
+        grid-template-columns:repeat(1,1fr);
+        grid-template-rows: auto;
+        
+        
+    }
+    
+}
+
+// second section vishnuraj scss end
+
