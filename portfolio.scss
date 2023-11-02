@@ -1,4 +1,216 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-grid2-section-2 {
+    background-color: #FFDD78;
+    color: black;
+    height: 352px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: auto;
+    // align-items: stretch;
+
+    #main1-grid-section-2 {
+
+        display: grid;
+        gap: 30px;
+        justify-content: center;
+
+        h5 {
+
+            // padding-top: 50px;
+            // padding-left: 135px;
+            // height: 24px;
+            width: 107px;
+            font-family: DM Sans;
+            font-size: 16px;
+            font-weight: 400;
+
+            letter-spacing: 5px;
+            color: #000000;
+
+        }
+
+        h2 {
+
+            // height: 128px;
+            width: 516px;
+            display: flex;
+            font-family: DM Serif Display;
+            font-size: 56px;
+            // line-height: 64px;
+        }
+    }
+
+    #main2-grid-section-2 {
+
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+
+        input {
+            width: 370px;
+            height: 48px;
+            border: none;
+            outline: none;
+            font-size: 20px;
+            padding-left: 10px;
+
+            // padding-left: 135px;
+            // padding-top: 90px;
+            &::placeholder {
+                font-size: 20px;
+                padding-left: 10px;
+
+            }
+
+        }
+
+        button {
+            background-color: #434CCC;
+            color: white;
+            width: 170px;
+            height: 48px;
+            border-radius: 10px;
+            border: none;
+            text-align: center;
+            font-size: 20px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #0f1de5;
+
+            }
+        }
+
+    }
+}
+=======
+
+$color: var(--Text_White, #FFF);
+$font-family: DM Serif Display;
+$font-style: normal;
+$font-weight: 400;
+
+* {
+    margin: 0;
+}
+
+@mixin header {
+    width: 1440px;
+    flex-shrink: 0;
+    display: flex;
+    background: #434CCC;
+}
+
+.header1 {
+    @include header;
+    height: 80px;
+    box-sizing: border-box;
+    padding-left: 135px;
+    padding-right: 135px;
+    justify-content: space-between;
+
+    div {
+        display: flex;
+        margin-top: 28px;
+        margin-left: 534px;
+        margin-right: 40px;
+        width: 324px;
+        height: 24px;
+        justify-content: space-between;
+    }
+
+    a {
+        color: var(--Text_White, #FFF);
+        text-align: right;
+        text-decoration: none;
+
+        /* Text */
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        /* 150% */
+    }
+
+    h3 {
+        margin-top: 16px;
+        color: $color;
+        /* H3 */
+        font-family: $font-family;
+        font-size: 40px;
+        font-style: $font-style;
+        font-weight: $font-weight;
+        line-height: 48px;
+        /* 120% */
+    }
+
+    button {
+        margin-top: 16px;
+        width: 170px;
+        height: 48px;
+        flex-shrink: 0;
+        border-color: rgba(255, 255, 255, 0.3);
+        background-color: transparent;
+        border-radius: 5px;
+        // text
+        color: #FFF;
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        /* 150% */
+
+    }
+}
+
+.header2 {
+    @include header;
+    height: 224px;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        margin-top: 47px;
+        color: var(--Text_White, #FFF);
+        text-align: center;
+        /* H1 */
+        font-family: $font-family;
+        font-size: 72px;
+        font-style: $font-style;
+        font-weight: $font-weight;
+        line-height: 80px;
+        /* 111.111% */
+    }
+
+    p {
+        margin-top: 10px;
+        color: var(--Text_White, #FFF);
+        text-align: center;
+
+        /* Text_Big */
+        font-family: DM Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        /* 160% */
+    }
+}
+=======
+
 // for removing the default stylings
 *{
     margin: 0;
@@ -264,3 +476,4 @@ color: blue;
 }
 
 // second section vishnuraj scss end
+
