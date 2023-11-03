@@ -57,6 +57,11 @@ body {
   font-weight: 700;
   line-height: 24px; /* 150% */
 }
+.messages-box button:hover {
+  background-color: rgb(33, 39, 131);
+  transform: scale(1.1);
+  cursor: pointer;
+}
 .messages-box .personal-info {
   display: flex;
 }
@@ -152,4 +157,46 @@ body {
   border: none;
   border-radius: 5px;
   color: white;
+}
+
+button:hover {
+  background-color: rgb(33, 39, 131);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media all and (max-width: 376px) {
+  .mid-content {
+    max-width: 375px;
+    padding: 16px 14px 0px 14px;
+  }
+  .mid-content .mid-content-map {
+    width: 347px;
+    height: 190px;
+  }
+  .mid-content .mid-content-infos {
+    margin: auto;
+    margin-top: 44px;
+    width: 347px;
+    height: 998px;
+    display: flex;
+    flex-direction: column;
+  }
+  .mid-content .mid-content-infos .messages-box {
+    width: 100%;
+  }
+  .mid-content .mid-content-infos .infos-box {
+    margin-top: 76px;
+    width: 100%;
+    height: 404px;
+    margin-left: 0px;
+  }
+  .mid-content .messages-box input {
+    width: 100%;
+    margin-left: 0px;
+    display: block;
+  }
+  .mid-content .personal-info {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=contact.css.map */
