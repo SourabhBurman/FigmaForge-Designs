@@ -48,10 +48,6 @@
   font-size: 20px;
   padding-left: 10px;
 }
-.main-grid2-section-2 #main2-grid-section-2 input::-moz-placeholder {
-  font-size: 20px;
-  padding-left: 10px;
-}
 .main-grid2-section-2 #main2-grid-section-2 input::placeholder {
   font-size: 20px;
   padding-left: 10px;
@@ -183,10 +179,9 @@
 }
 
 .second-section-main {
-  max-width: 1440px;
-  margin: auto;
+  width: 80%;
   height: auto;
-  padding: 0 9.375%;
+  margin: auto;
 }
 .second-section-main .second-section-main1 {
   width: 100%;
@@ -221,9 +216,11 @@
 .second-section-main .second-section-main2 .section-section-grid1 {
   grid-area: 1/1/2/3;
   height: 512px;
-  background-position-x: right;
   background-image: url("images/img 1.png");
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 5px;
+  background-color: #f1b505;
   padding-left: 10%;
 }
 .second-section-main .second-section-main2 .section-section-grid1 p {
@@ -254,9 +251,12 @@
 .second-section-main .second-section-main2 .section-section-grid2 {
   height: 512px;
   background-image: url("images/img 2.png");
+  background-position: center;
+  background-color: #e94a47;
   padding-left: 10%;
   background-size: cover;
   border-radius: 5px;
+  background-repeat: no-repeat;
 }
 .second-section-main .second-section-main2 .section-section-grid2 p {
   width: 67px;
@@ -289,6 +289,9 @@
   background-image: url("images/img 3.png");
   padding-left: 10%;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #428dfc;
   border-radius: 5px;
 }
 .second-section-main .second-section-main2 .section-section-grid3 p {
@@ -321,6 +324,9 @@
   height: 512px;
   border-radius: 5px;
   background-image: url("images/img 4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f1b505;
   padding-left: 10%;
   background-size: cover;
 }
@@ -354,6 +360,9 @@
   height: 512px;
   border-radius: 5px;
   background-image: url("images/img 5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #434ccc;
   padding-left: 10%;
   background-size: cover;
 }
@@ -384,11 +393,12 @@
   height: 48px;
 }
 .second-section-main .second-section-main3 {
-  width: 100%;
+  width: 40%;
   height: 100px;
+  margin: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .second-section-main .second-section-main3 button {
   width: 48px;
@@ -398,13 +408,24 @@
   color: #434ccc;
   font-size: 16px;
   font-weight: 700;
-  margin-left: 10px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
+  .second-section-main {
+    width: 90%;
+  }
+  .second-section-main1 {
+    margin: auto;
+  }
   .second-section-main2 {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 30px;
+  }
+  .second-section-main2 .section-section-grid1 {
+    grid-area: 1/span 1 !important;
+    height: 512px;
   }
 }
 * {
@@ -613,4 +634,6 @@ footer li:hover {
   footer {
     height: 844px;
   }
-}/*# sourceMappingURL=portfolio.css.map */
+}
+
+/*# sourceMappingURL=portfolio.css.map */

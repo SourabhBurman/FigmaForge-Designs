@@ -226,7 +226,7 @@ color: blue;
 }
 
 
-// second section vishnuraj scss start
+// second section vishnuraj scss start=======================================================================================================
 
 
 
@@ -259,20 +259,22 @@ color: blue;
     height: $hei;
 }
 .second-section-main{
-    max-width: 1440px;
-    margin:auto;
+    width: 80%;
+    // max-width: 1440px;
     height: auto;
+    margin: auto;
     // background-color: rgb(16, 196, 82);
-    padding: 0 9.375%;
+    // padding: 0 9.375%;
     .second-section-main1{
         width: 100%;
         height: 100px;
-        // background-color: aqua;
+        
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 16px;
         font-family: sans-serif;
+        
         h4{
             width: 92px;
             height: 24px;
@@ -306,10 +308,12 @@ color: blue;
         .section-section-grid1{
             grid-area: 1/1/2/3;
             height: 512px;
-            background-position-x: right;
-            background-image: url("images/img 1.png");
-            border-radius: 5px;
             
+            background-image: url("images/img 1.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 5px;
+            background-color: #f1b505;
             padding-left: 10%;
             
             p{
@@ -346,10 +350,12 @@ color: blue;
             height: 512px;
             
             background-image: url("images/img 2.png");
-            // background-position-x: right;
+            background-position: center;
+            background-color: #e94a47;
             padding-left: 10%;
             background-size: cover;
             border-radius: 5px;
+            background-repeat: no-repeat;
             p{
                 @include smallgrids_p(67px,24px,16px,400,#f0807e) ;
                 
@@ -370,6 +376,9 @@ color: blue;
             // background-position-x: right;
             padding-left: 10%;
             background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #428dfc;
             border-radius: 5px;
             p{
                 @include smallgrids_p(71px,24px,16px,400,#a0c6fe) ;
@@ -389,6 +398,9 @@ color: blue;
             border-radius: 5px;
             background-image: url("images/img 4.png");
             // background-position-x: right;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #f1b505;
             padding-left: 10%;
             background-size: cover;
             p{
@@ -409,6 +421,9 @@ color: blue;
             border-radius: 5px;
             background-image: url("images/img 5.png");
             // background-position-x: right;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #434ccc;
             padding-left: 10%;
             background-size: cover;
             p{
@@ -427,12 +442,13 @@ color: blue;
 
     }
     .second-section-main3{
-        width: 100%;
+        width: 40%;
         height: 100px;
+        margin: auto;
         
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         button{
             width:48px ;
             height: 48px;
@@ -441,7 +457,7 @@ color: blue;
             color: #434ccc;
             font-size:16px ;
             font-weight: 700;
-            margin-left: 10px;
+            
 
             
             
@@ -449,34 +465,32 @@ color: blue;
         
     }
 }
-@media screen  and (max-width:375px) {
-    
-    // .second-section-main1{
-        
-    //     h4{
-    //         left: 0;
-    //     }
-    //     div{
-
-
-    //         p{
-    //             padding-right: 10px;
-    //         }
-    //     }
-    // }
-    // .section-section-grid1{
-    //     display: none;
-    // }
-    .second-section-main2{
-        grid-template-columns:repeat(1,1fr);
-        grid-template-rows: auto;
-        
-        
+@media screen and (max-width:600px){
+    .second-section-main{
+        width: 90%;
     }
-    
+
+    .second-section-main1{
+        margin: auto;
+    }
+    .second-section-main2{
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: repeat(1,1fr) !important;
+        
+        gap: 30px;
+        .section-section-grid1{
+            grid-area: 1/span 1 !important;
+            height: 512px;
+        }
+
+    }
+
+
 }
 
-// second section vishnuraj scss end
+
+// second section vishnuraj scss end=======================================================================================================
 
 // footer by Deepak
 *{
