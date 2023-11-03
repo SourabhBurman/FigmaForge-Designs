@@ -81,6 +81,7 @@
   padding-left: 135px;
   padding-right: 135px;
   justify-content: space-between;
+  margin: auto;
 }
 .header1 .navbar {
   display: flex;
