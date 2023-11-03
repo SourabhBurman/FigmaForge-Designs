@@ -71,10 +71,6 @@
   background-color: #0f1de5;
 }
 
-* {
-  margin: 0;
-}
-
 .header1 {
   width: 1440px;
   flex-shrink: 0;
@@ -87,7 +83,7 @@
   justify-content: space-between;
   margin: auto;
 }
-.header1 div {
+.header1 .navbar {
   display: flex;
   margin-top: 28px;
   margin-left: 534px;
@@ -107,6 +103,10 @@
   font-weight: 700;
   line-height: 24px;
   /* 150% */
+}
+.header1 a:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 .header1 h3 {
   margin-top: 16px;
@@ -134,7 +134,13 @@
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
-  /* 150% */
+}
+.header1 button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.header1 svg {
+  display: none;
 }
 
 .header2 {
@@ -146,6 +152,7 @@
   flex-direction: column;
   align-items: center;
   margin: auto;
+  box-sizing: border-box;
 }
 .header2 h1 {
   margin-top: 47px;
@@ -172,6 +179,39 @@
   /* 160% */
 }
 
+@media all and (max-width: 376px) {
+  .header1 {
+    padding: 0;
+    max-width: 375px;
+  }
+  .header1 .navbar,
+  .header1 button {
+    display: none;
+  }
+  .header1 h3 {
+    color: #FFF;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 14px;
+  }
+  .header1 svg {
+    display: block;
+    margin-top: 24px;
+    margin-right: 26px;
+  }
+  .header2 {
+    padding: 0;
+    max-width: 375px;
+  }
+  .header2 h1 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+  .header2 p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
 * {
   margin: 0;
   padding: 0;

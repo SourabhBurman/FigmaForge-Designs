@@ -15,10 +15,11 @@ body {
     width: 1440px;
     height: 1248px;
     box-sizing: border-box;
-    padding:64px 135px 80px 135px;
+    padding: 64px 135px 80px 135px;
     display: flex;
     flex-direction: column;
-background-color: rgba(67, 76, 204, 0.0515);
+    background-color: rgba(67, 76, 204, 0.0515);
+
     .mid-content-map {
         width: 1170px;
         height: 640px;
@@ -38,12 +39,13 @@ background-color: rgba(67, 76, 204, 0.0515);
 }
 
 .messages-box {
-   display: flex;
-   flex-direction: column;
-    
+    display: flex;
+    flex-direction: column;
+
     width: 834px;
+
     h1 {
-     
+
         color: var(--Text_Black, #000);
 
         /* H2 */
@@ -60,33 +62,27 @@ background-color: rgba(67, 76, 204, 0.0515);
         height: 48px;
         @include buttons(5px);
         color: #FFF;
-text-align: center;
-font-family: DM Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 24px; /* 150% */
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        /* 150% */
     }
-    button:hover{
+
+    button:hover {
         background-color: rgb(33, 39, 131);
         transform: scale(1.1);
         cursor: pointer;
     }
-    .personal-info{
+
+    .personal-info {
         display: flex;
     }
+
     .name {
         margin-top: 28px;
-        width: 401px;
-height: 48px;
-flex-shrink: 0;
-border-radius: 5px;
-border: 1px solid #DADADA;
-background: #FFF;
-    }
-
-    .email {
-        margin:28px 0px 0px 28px;
         width: 401px;
         height: 48px;
         flex-shrink: 0;
@@ -94,14 +90,25 @@ background: #FFF;
         border: 1px solid #DADADA;
         background: #FFF;
     }
+
+    .email {
+        margin: 28px 0px 0px 28px;
+        width: 401px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        border: 1px solid #DADADA;
+        background: #FFF;
+    }
+
     .typemsg {
         width: 834px;
         height: 144px;
         margin-top: 28px;
         flex-shrink: 0;
         border-radius: 5px;
-border: 1px solid #DADADA;
-background: #FFF;
+        border: 1px solid #DADADA;
+        background: #FFF;
     }
 
 }
@@ -109,60 +116,68 @@ background: #FFF;
 
 
 .infos-box {
-    margin-left:66px;
+    margin-left: 66px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 335px;
 
-    div{
+    div {
         display: flex;
     }
+
     :nth-child(2) {
-        p{
+        p {
             color: var(--text-black-50, rgba(0, 0, 0, 0.50));
-            margin:0px;
-    /* Text_Gray */
-    font-family: DM Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 150% */
-    margin-left:22px;
+            margin: 0px;
+            /* Text_Gray */
+            font-family: DM Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 150% */
+            margin-left: 22px;
         }
     }
+
     :nth-child(3) {
-p{
-    color: var(--Text_Black, #000);
-margin:0px;
-/* Text_Big */
-font-family: DM Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-margin-left:22px;
-}
-    }
-    :nth-child(4) {
-        p{
+        p {
             color: var(--Text_Black, #000);
-            margin:0px;
-/* Text */
-font-family: DM Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 24px; /* 150% */
-margin-left:22px;
+            margin: 0px;
+            /* Text_Big */
+            font-family: DM Sans;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px;
+            /* 160% */
+            margin-left: 22px;
         }
     }
-    :nth-child(5) {
-        gap:8px;
+
+    :nth-child(4) {
+        p {
+            color: var(--Text_Black, #000);
+            margin: 0px;
+            /* Text */
+            font-family: DM Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            /* 150% */
+            margin-left: 22px;
+        }
     }
+
+    :nth-child(5) {
+        gap: 8px;
+    }
+
     h1 {
         color: var(--Text_Black, #000);
-    
+
         /* H2 */
         font-family: DM Serif Display;
         font-size: 56px;
@@ -171,19 +186,14 @@ margin-left:22px;
         line-height: 64px;
         /* 114.286% */
     }
-    
+
 }
+
 .social-logos>button {
     width: 48px;
     height: 48px;
     @include buttons(5px);
 }
-button:hover{
-    background-color: rgb(33, 39, 131);
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
 
 @media all and (max-width:376px) {
     .mid-content {
