@@ -179,7 +179,7 @@
 }
 
 .second-section-main {
-  width: 80%;
+  width: 1170px;
   height: auto;
   margin: auto;
 }
@@ -192,20 +192,28 @@
   font-size: 16px;
   font-family: sans-serif;
 }
-.second-section-main .second-section-main1 h4 {
-  width: 92px;
-  height: 24px;
-  margin: 0 20px;
-}
-.second-section-main .second-section-main1 div {
-  width: 403px;
-  height: 24px;
+.second-section-main .second-section-main1 .second-section-navbar {
   display: flex;
+  width: 520px;
+  align-items: center;
   justify-content: space-evenly;
-  color: grey;
 }
-.second-section-main .second-section-main1 div p {
-  padding-right: 10px;
+.second-section-main .second-section-main1 .second-section-navbar #navbar-heading {
+  width: 92px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.second-section-main .second-section-main1 .second-section-navbar #navbar-heading:hover {
+  scale: 1.1;
+}
+.second-section-main .second-section-main1 .second-section-navbar .navbat-cont {
+  color: #7a7b7e;
+  font-size: 16px;
+  font-size: 400;
+}
+.second-section-main .second-section-main1 .second-section-navbar .navbar-cont:hover {
+  color: #7a7b7e;
+  scale: 1.05;
 }
 .second-section-main .second-section-main2 {
   display: grid;
@@ -248,6 +256,17 @@
   width: 170px;
   height: 48px;
 }
+.second-section-main .second-section-main2 .section-section-grid1 button:hover {
+  background-color: #fdbf04;
+  font-weight: 600;
+  scale: 1.1;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.second-section-main .second-section-main2 .section-section-grid1:hover {
+  scale: 1.02;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 .second-section-main .second-section-main2 .section-section-grid2 {
   height: 512px;
   background-image: url("images/img 2.png");
@@ -283,6 +302,18 @@
   font-size: 20px;
   width: 48px;
   height: 48px;
+}
+.second-section-main .second-section-main2 .section-section-grid2 button:hover {
+  scale: 1.1;
+  background-color: #d42c29;
+  font-size: 2rem;
+  cursor: pointer;
+  transform: rotate(90deg);
+  transition: transform 1s;
+}
+.second-section-main .second-section-main2 .section-section-grid2:hover {
+  scale: 1.02;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .second-section-main .second-section-main2 .section-section-grid3 {
   height: 512px;
@@ -320,6 +351,18 @@
   width: 48px;
   height: 48px;
 }
+.second-section-main .second-section-main2 .section-section-grid3 button:hover {
+  scale: 1.1;
+  background-color: #347ce8;
+  font-size: 2rem;
+  cursor: pointer;
+  transform: rotate(90deg);
+  transition: transform 1s;
+}
+.second-section-main .second-section-main2 .section-section-grid3:hover {
+  scale: 1.02;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 .second-section-main .second-section-main2 .section-section-grid4 {
   height: 512px;
   border-radius: 5px;
@@ -355,6 +398,18 @@
   font-size: 20px;
   width: 48px;
   height: 48px;
+}
+.second-section-main .second-section-main2 .section-section-grid4 button:hover {
+  scale: 1.1;
+  background-color: #ffbf00;
+  font-size: 2rem;
+  cursor: pointer;
+  transform: rotate(90deg);
+  transition: transform 1s;
+}
+.second-section-main .second-section-main2 .section-section-grid4:hover {
+  scale: 1.02;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .second-section-main .second-section-main2 .section-section-grid5 {
   height: 512px;
@@ -392,6 +447,18 @@
   width: 48px;
   height: 48px;
 }
+.second-section-main .second-section-main2 .section-section-grid5 button:hover {
+  scale: 1.1;
+  background-color: #343fd5;
+  font-size: 2rem;
+  cursor: pointer;
+  transform: rotate(90deg);
+  transition: transform 1s;
+}
+.second-section-main .second-section-main2 .section-section-grid5:hover {
+  scale: 1.02;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 .second-section-main .second-section-main3 {
   width: 40%;
   height: 100px;
@@ -409,13 +476,17 @@
   font-size: 16px;
   font-weight: 700;
 }
+.second-section-main .second-section-main3 button:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
 
 @media screen and (max-width: 600px) {
   .second-section-main {
     width: 90%;
   }
-  .second-section-main1 {
-    margin: auto;
+  .second-section-main #navbar-heading {
+    width: 92px !important;
   }
   .second-section-main2 {
     display: grid;
@@ -426,6 +497,10 @@
   .second-section-main2 .section-section-grid1 {
     grid-area: 1/span 1 !important;
     height: 512px;
+  }
+  .second-section-main3 {
+    width: 80% !important;
+    text-align: center;
   }
 }
 * {
