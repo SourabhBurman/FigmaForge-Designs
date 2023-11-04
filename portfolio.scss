@@ -134,7 +134,7 @@
     }
   }
   
-  @media screen and (min-width: 375px) and (max-width: 1000px) {
+  @media screen and (max-width:600px) {
     .main-grid1-section-2 {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
@@ -157,7 +157,7 @@
       width: 100%;
       grid-template-columns: repeat(1, 1fr);
   
-      gap: 0px;
+      gap: 0;
       #main1-grid-section-2 {
         width: 80%;
         margin-left:14px;
@@ -315,7 +315,7 @@ $font-weight: 400;
     }
 }
 
-@media all and (max-width:376px) {
+@media all and (max-width:600px) {
     .header1 {
         padding: 0;
         max-width: 375px;
@@ -369,9 +369,7 @@ color: blue;
 }
 
 
-// second section vishnuraj scss start
-
-
+// second section vishnuraj scss start========================================================================================================
 
 @mixin smallgrids_p($wd,$hei,$fs,$fw,$col){
     
@@ -402,44 +400,47 @@ color: blue;
     height: $hei;
 }
 .second-section-main{
-    max-width: 1440px;
-    margin:auto;
+    width: 1170px;
     height: auto;
+    margin: auto;
     // background-color: rgb(16, 196, 82);
-    padding: 0 9.375%;
+    // padding: 0 9.375%;
     .second-section-main1{
         width: 100%;
         height: 100px;
-        // background-color: aqua;
+        
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 16px;
         font-family: sans-serif;
-        h4{
-            width: 92px;
-            height: 24px;
-            margin:0 20px;
-            
-        }
-        div{
-            width: 403px;
-            height: 24px;
+        .second-section-navbar{
             display: flex;
+            width:520px ;
+            
+            align-items: center;
             justify-content: space-evenly;
-            
-            
-            color: grey;
-            p{
-                padding-right: 10px;
+            #navbar-heading{
+                width: 92px;
+                
+                font-size: 16px;
+                font-weight: 700;
+            }
+            #navbar-heading:hover{
+                scale: 1.1;
+            }
+            .navbat-cont{
+                color: #7a7b7e;
+                font-size: 16px;
+                font-size: 400;
+                
+            }
+            .navbar-cont:hover{
+                color: #7a7b7e;
+                scale: 1.05;
             }
         }
-        // p{
-        //     display: flex;
-        //     color: grey;
-        //     padding-right: 20px;
-        //     font-size: 16px;
-        // }
+        
     }
     .second-section-main2{
         display: grid;
@@ -449,10 +450,12 @@ color: blue;
         .section-section-grid1{
             grid-area: 1/1/2/3;
             height: 512px;
-            background-position-x: right;
-            background-image: url("images/img 1.png");
-            border-radius: 5px;
             
+            background-image: url("images/img 1.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 5px;
+            background-color: #f1b505;
             padding-left: 10%;
             
             p{
@@ -482,17 +485,31 @@ color: blue;
                 width: 170px;
                 height: 48px;
             }
+            button:hover{
+                background-color: #fdbf04;
+                font-weight: 600;
+                scale: 1.1;
+                font-size: 1rem;
+                cursor: pointer;
+                
+            }
             
+        }
+        .section-section-grid1:hover{
+            scale: 1.02;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         }
         // small divs
         .section-section-grid2{
             height: 512px;
             
             background-image: url("images/img 2.png");
-            // background-position-x: right;
+            background-position: center;
+            background-color: #e94a47;
             padding-left: 10%;
             background-size: cover;
             border-radius: 5px;
+            background-repeat: no-repeat;
             p{
                 @include smallgrids_p(67px,24px,16px,400,#f0807e) ;
                 
@@ -505,6 +522,18 @@ color: blue;
                 @include smallgrid_b(white,#e94a47,1px solid #f0807e,8px,20px,48px,48px);
                 
             }
+            button:hover{
+                scale: 1.1;
+                background-color:#d42c29 ;
+                font-size: 2rem;
+                cursor: pointer;
+                transform: rotate(90deg);
+                transition: transform 1s;
+            }
+        }
+        .section-section-grid2:hover{
+            scale: 1.02;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         }
         .section-section-grid3{
             height: 512px;
@@ -513,6 +542,9 @@ color: blue;
             // background-position-x: right;
             padding-left: 10%;
             background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #428dfc;
             border-radius: 5px;
             p{
                 @include smallgrids_p(71px,24px,16px,400,#a0c6fe) ;
@@ -526,12 +558,28 @@ color: blue;
                 @include smallgrid_b(white,#428dfc,1px solid #a0c6fe,8px,20px,48px,48px);
                 
             }
+            button:hover{
+                scale: 1.1;
+                background-color:#347ce8 ;
+                font-size: 2rem;
+                cursor: pointer;
+                transform: rotate(90deg);
+                transition: transform 1s;
+            }
+        }
+        .section-section-grid3:hover{
+            scale: 1.02;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            
         }
         .section-section-grid4{
             height: 512px;
             border-radius: 5px;
             background-image: url("images/img 4.png");
             // background-position-x: right;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #f1b505;
             padding-left: 10%;
             background-size: cover;
             p{
@@ -546,12 +594,28 @@ color: blue;
                 @include smallgrid_b(white,#f1b505,1px solid #f8da82,8px,20px,48px,48px);
                 
             }
+            button:hover{
+                scale: 1.1;
+                background-color:#ffbf00 ;
+                font-size: 2rem;
+                cursor: pointer;
+                transform: rotate(90deg);
+                transition: transform 1s;
+            }
+        }
+        .section-section-grid4:hover{
+            scale: 1.02;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            
         }
         .section-section-grid5{
             height: 512px;
             border-radius: 5px;
             background-image: url("images/img 5.png");
             // background-position-x: right;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #434ccc;
             padding-left: 10%;
             background-size: cover;
             p{
@@ -566,16 +630,29 @@ color: blue;
                 @include smallgrid_b(white,#434ccc,1px solid #a1a6e6,8px,20px,48px,48px);
                 
             }
+            button:hover{
+                scale: 1.1;
+                background-color:#343fd5 ;
+                font-size: 2rem;
+                cursor: pointer;
+                transform: rotate(90deg);
+                transition: transform 1s;
+            }
+        }
+        .section-section-grid5:hover{
+            scale: 1.02;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         }
 
     }
     .second-section-main3{
-        width: 100%;
+        width: 40%;
         height: 100px;
+        margin: auto;
         
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         button{
             width:48px ;
             height: 48px;
@@ -584,42 +661,52 @@ color: blue;
             color: #434ccc;
             font-size:16px ;
             font-weight: 700;
-            margin-left: 10px;
+            
 
             
             
         }
+        button:hover{
+            scale: 1.1;
+            cursor: pointer;
+        }
         
     }
 }
-@media screen  and (max-width:375px) {
+@media screen and (max-width:600px){
+    .second-section-main{
+        width: 90%;
+        #navbar-heading{
+            width: 92px !important;
+        }
+    }
+
     
-    // .second-section-main1{
-        
-    //     h4{
-    //         left: 0;
-    //     }
-    //     div{
-
-
-    //         p{
-    //             padding-right: 10px;
-    //         }
-    //     }
-    // }
-    // .section-section-grid1{
-    //     display: none;
-    // }
     .second-section-main2{
-        grid-template-columns:repeat(1,1fr);
-        grid-template-rows: auto;
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: repeat(1,1fr) !important;
         
+        gap: 30px;
+        .section-section-grid1{
+            grid-area: 1/span 1 !important;
+            height: 512px;
+        }
+
+    }
+    .second-section-main3{
+        width: 80% !important;
+        
+        text-align: center;
         
     }
-    
+
+
 }
 
-// second section vishnuraj scss end
+
+
+// second section vishnuraj scss end=========================================================================================================
 
 // footer by Deepak
 *{
