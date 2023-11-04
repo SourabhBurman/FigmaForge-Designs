@@ -4,15 +4,73 @@
   box-sizing: border-box;
 }
 
+.main-grid1-section-2 {
+  display: flex;
+  height: 485px;
+  width: 1440px;
+  padding: 0;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: DM Serif Display;
+  line-height: 32px;
+}
+.main-grid1-section-2 .main-grid1 h5 {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+.main-grid1-section-2 .main-grid1 h4 {
+  color: var(--Text_Black, #000);
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 33px;
+}
+.main-grid1-section-2 .design_team {
+  display: flex;
+  gap: 14px;
+  padding-top: 40px;
+}
+.main-grid1-section-2 .design_team .insta {
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgb(218, 207, 207);
+  margin: 0px 10px 10px 0px;
+  background-color: white;
+  border-radius: 5px;
+}
+.main-grid1-section-2 .design_team p {
+  color: var(--text-black-50, rgba(62, 60, 60, 0.5));
+  font-family: DM Sans;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  width: 114px;
+  height: 24px;
+  padding-top: 10px;
+}
+
 .main-grid2-section-2 {
-  background-color: #FFDD78;
+  background-color: #ffdd78;
   color: black;
   height: 352px;
   width: 1440px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 80px;
   margin: auto;
 }
 .main-grid2-section-2 #main1-grid-section-2 {
@@ -21,32 +79,26 @@
   justify-content: center;
 }
 .main-grid2-section-2 #main1-grid-section-2 h5 {
-  width: 107px;
   font-family: DM Sans;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 5px;
-  color: #000000;
 }
 .main-grid2-section-2 #main1-grid-section-2 h2 {
-  width: 516px;
-  display: flex;
+  font-weight: 400;
   font-family: DM Serif Display;
   font-size: 56px;
 }
 .main-grid2-section-2 #main2-grid-section-2 {
   display: flex;
   gap: 30px;
-  justify-content: center;
   align-items: center;
 }
 .main-grid2-section-2 #main2-grid-section-2 input {
-  width: 370px;
   height: 48px;
+  width: 370px;
   border: none;
   outline: none;
-  font-size: 20px;
-  padding-left: 10px;
 }
 .main-grid2-section-2 #main2-grid-section-2 input::-moz-placeholder {
   font-size: 20px;
@@ -57,7 +109,7 @@
   padding-left: 10px;
 }
 .main-grid2-section-2 #main2-grid-section-2 button {
-  background-color: #434CCC;
+  background-color: #434ccc;
   color: white;
   width: 170px;
   height: 48px;
@@ -71,6 +123,59 @@
   background-color: #0f1de5;
 }
 
+@media screen and (min-width: 375px) and (max-width: 1000px) {
+  .main-grid1-section-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: -moz-max-content;
+    height: max-content;
+    width: 90%;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-grid1-section-2 .ph1 img, .main-grid1-section-2 .ph2 img, .main-grid1-section-2 .ph3 img {
+    width: 346px;
+  }
+  .main-grid2-section-2 {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+  }
+  .main-grid2-section-2 #main1-grid-section-2 {
+    width: 80%;
+    margin-left: 14px;
+    margin-right: 15px;
+  }
+  .main-grid2-section-2 #main1-grid-section-2 h2 {
+    font-size: 35px;
+  }
+  .main-grid2-section-2 #main2-grid-section-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    width: 90%;
+    margin-left: 14px;
+  }
+  .main-grid2-section-2 #main2-grid-section-2 input {
+    height: 30px;
+    width: 100%;
+  }
+  .main-grid2-section-2 #main2-grid-section-2 input::-moz-placeholder {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  .main-grid2-section-2 #main2-grid-section-2 input::placeholder {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  .main-grid2-section-2 #main2-grid-section-2 button {
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+}
 .header1 {
   width: 1440px;
   flex-shrink: 0;
