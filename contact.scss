@@ -23,6 +23,10 @@ body {
     .mid-content-map {
         width: 1170px;
         height: 640px;
+        :hover{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            transform:scale(1.01);
+        }
     }
 
     .mid-content-infos {
@@ -194,7 +198,10 @@ body {
     height: 48px;
     @include buttons(5px);
 }
-
+.social-logos>button:hover{
+    transform:scale(1.1);
+    background-color: rgb(33, 39, 131);
+}
 @media all and (max-width:376px) {
     .mid-content {
         max-width: 375px;

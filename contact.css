@@ -17,6 +17,10 @@ body {
   width: 1170px;
   height: 640px;
 }
+.mid-content .mid-content-map :hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.01);
+}
 .mid-content .mid-content-infos {
   margin-top: 60px;
   width: 1170px;
@@ -161,6 +165,11 @@ body {
   border: none;
   border-radius: 5px;
   color: white;
+}
+
+.social-logos > button:hover {
+  transform: scale(1.1);
+  background-color: rgb(33, 39, 131);
 }
 
 @media all and (max-width: 376px) {
