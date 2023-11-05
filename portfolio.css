@@ -671,7 +671,7 @@ h4, p, h5 {
 }
 
 footer {
-  max-width: 1440px;
+  width: 1440px;
   height: 319px;
   background-color: rgb(245, 246, 252);
   padding: 0px 135px;
@@ -811,7 +811,7 @@ footer li:hover {
 
 #footer-line {
   height: 81px;
-  max-width: 1440px;
+  width: 1440px;
   border-top: 1px solid rgba(0, 0, 0, 0.5);
   background-color: rgb(245, 246, 252);
   padding: 0 135px;
@@ -832,7 +832,7 @@ footer li:hover {
   line-height: 24px;
 }
 
-@media all and (min-width: 660px) and (max-width: 1079px) {
+@media all and (min-width: 660px) and (max-width: 800px) {
   footer-top-logo h4 + div {
     width: 480px;
   }
