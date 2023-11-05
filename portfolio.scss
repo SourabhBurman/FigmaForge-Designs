@@ -780,7 +780,7 @@ footer{
     #social{
         display: flex;
         flex-shrink: 0;
-        
+        gap:13px;
         &>img:nth-child(1){
             width: 9px;
             height: 18px;
@@ -920,7 +920,8 @@ footer{
         }
     }
     footer {
-      height: 783px;
+    //   height: 783px;
+    height:844px;
       padding: 0px 15px 0px 14px;
 
       &>.footer-container {

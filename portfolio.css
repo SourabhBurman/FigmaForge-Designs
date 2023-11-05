@@ -720,6 +720,7 @@ footer li:hover {
 #footer-top-logo #social {
   display: flex;
   flex-shrink: 0;
+  gap: 13px;
 }
 #footer-top-logo #social > img:nth-child(1) {
   width: 9px;
@@ -847,7 +848,7 @@ footer li:hover {
     width: 346px;
   }
   footer {
-    height: 783px;
+    height: 844px;
     padding: 0px 15px 0px 14px;
   }
   footer > .footer-container {
