@@ -837,10 +837,14 @@ footer li:hover {
     width: 480px;
   }
   footer {
+    max-width: 100%;
     height: 500px;
   }
   #latestPosts {
     margin-top: 32px;
+  }
+  #footer-line {
+    max-width: 100%;
   }
 }
 @media all and (min-width: 367px) and (max-width: 675px) {
@@ -849,6 +853,7 @@ footer li:hover {
   }
   footer {
     height: 844px;
+    max-width: 100%;
     padding: 0px 15px 0px 14px;
   }
   footer > .footer-container {
@@ -857,10 +862,15 @@ footer li:hover {
   #footer-line {
     height: 112px;
     padding: 0px 15px 0px 14px;
+    max-width: 100%;
   }
 }
 @media all and (max-width: 366px) {
   footer {
+    max-width: 100%;
     height: 844px;
+  }
+  #footer-line {
+    max-width: 100%;
   }
 }/*# sourceMappingURL=portfolio.css.map */
