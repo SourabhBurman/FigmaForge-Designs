@@ -1,6 +1,5 @@
 # Honest-wing-579
-
-## Description - The Honest-wing-579 project, built with HTML, CSS, and SASS, underwent enhancements to improve aesthetics and the user experience, following the Figma design. We also employed semantic tags and utilized mixins, variables, and partials for code modularity and maintainability. The Project was about building portfolio and contact webpages and making them responsive for mobile screens.
+ Description - The Honest-wing-579 project, built with HTML, CSS, and SASS, underwent enhancements to improve aesthetics and the user experience, following the Figma design. We also employed semantic tags and utilized mixins, variables, and partials for code modularity and maintainability. The Project was about building portfolio and contact webpages and making them responsive for mobile screens.
 
 ## Key-Features -
 <ul>
@@ -41,14 +40,22 @@ Use of semantic HTML tags to enhance accessibility and readability.</li>
 <img style="width:500px;" src="https://github.com/SourabhBurman/honest-wing-579/assets/146980127/90cd9375-ee98-42e2-bf31-d64551a22599">
 
 <ul>
-  <li>*Navbar with Links:* Designed and implemented a responsive navigation bar in the header section. The navbar includes links to essential sections of the website, such as "Contact," "Portfolio," and "Blog."
+<li>Navbar with Links: Designed and implemented a responsive navigation bar in the header section. The navbar includes links to essential sections of the website, such as "Contact," "Portfolio," and "Blog."
 </li>
-  <li>Sign-Up Button:* Added a visually interactive sign-up button to the navbar. The button is designed to change its appearance when hovered over and is clickable, providing a user-friendly experience.
+<li>Sign-Up Button: Added a visually interactive sign-up button to the navbar. The button is designed to change its appearance when hovered over and is clickable, providing a user-friendly experience.
 </li>
-  <li>Smooth Transitions:* Applied smooth transitions to the navigation links, creating a visually pleasing effect. When a link is clicked, it will smoothly redirect users to the corresponding page, enhancing the overall user experience.
-</li>
+<li>Smooth Transitions: Applied smooth transitions to the navigation links, creating a visually pleasing effect. When a link is clicked, it will smoothly redirect users to the corresponding page, enhancing the overall user experience.</li>
+<li>Responsiveness: Ensured that the header section remains fully functional and aesthetically pleasing on various devices and screen sizes. The navigation elements and layout adapt to provide a seamless experience for all users.</li>
 </ul>
 
+## Alipa(fw28_200) 
+<img style="width:500px;" src="https://github.com/SourabhBurman/honest-wing-579/assets/146980127/81e650dc-62ed-44de-89db-b536729eae0c">
+
+## Deepak Purohit (fw28_311)
+<img style="width:500px;" src="https://github.com/SourabhBurman/honest-wing-579/assets/146980127/4de29010-4f4d-4f34-a418-c4f3871ccba3">
+
+## Visnuraj K R (fw28_140)
+<img style="width:500px;" src="https://github.com/SourabhBurman/honest-wing-579/assets/146980127/90cd9375-ee98-42e2-bf31-d64551a22599">
 
 ## Responsive(mobile screen (375px)) - 
 <img src="https://github.com/SourabhBurman/honest-wing-579/assets/146980127/092608ce-6ad8-448a-8366-964dcb26ba4c">
