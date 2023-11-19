@@ -50,8 +50,16 @@ Use of semantic HTML tags to enhance accessibility and readability.</li>
 
 ## Alipa(fw28_200) 
 <img style="width:500px;" src="https://github.com/SourabhBurman/honest-wing-579/assets/146980127/81e650dc-62ed-44de-89db-b536729eae0c">
+<ul>
+<li>Body Section : In the body section, I've implemented a visually appealing and functional area that includes an email subscription form and some eye-catching images to enhance the user experience.</li>
+<li>Email Subscription : Users can subscribe to updates and newsletters through the email subscription form.</li>
+<li>Images : I've included visually engaging images to enhance the overall presentation of the project.</li>
+<li>Responsiveness : Ensured that the header section remains fully functional and aesthetically pleasing on various devices and screen sizes. The navigation elements and layout adapt to provide a seamless experience for all users.</li>
+</ul>
 
 ## Deepak Purohit (fw28_311)
+<img style="width:500px;" src="https://github.com/SourabhBurman/honest-wing-579/assets/146980127/4de29010-4f4d-4f34-a418-c4f3871ccba3">
+
 <ul>
  <li>Footer: Created footer with the help of flex-box Model and uses Flex-basis to make it in a desired ratio.</li>
  <li>Latest-Post: Added latest posts/articles in a footer section about our website.</li>
@@ -59,7 +67,6 @@ Use of semantic HTML tags to enhance accessibility and readability.</li>
  <li>Footer-line: Ended with an aesthetic footer line ,mentioning copyright claims</li>
  <li>Responsiveness: Ensured that the footer section remains fully functional and aesthetically pleasing on various devices and screen sizes for an optimal user experience.</li>
 </ul>
-<img style="width:500px;" src="https://github.com/SourabhBurman/honest-wing-579/assets/146980127/4de29010-4f4d-4f34-a418-c4f3871ccba3">
 
 ## Visnuraj K R (fw28_140)
 <img style="width:500px;" src="https://github.com/SourabhBurman/honest-wing-579/assets/146980127/90cd9375-ee98-42e2-bf31-d64551a22599">
