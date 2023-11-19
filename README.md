@@ -72,9 +72,9 @@ Use of semantic HTML tags to enhance accessibility and readability.</li>
 <img style="width:500px;" src="https://github.com/SourabhBurman/honest-wing-579/assets/146980127/90cd9375-ee98-42e2-bf31-d64551a22599">
 <ul>
   <li>Mid-Section of Portfolio Page: Designed and created the middle section of the contact page, which includes the middle-section nav-bar, grids, and pagination.</li>
-  <li>Middle-Section Nav-bar: Implemented hovering techniques for the middle-section nav-bar. </li>
-  <li>Middle-section grids: Properly segmented all the grids according to the Figma design, applied appropriate background images to each grid, and added hovering transitions to both the grids and buttons for an attractive visual effect.</li>
- <li>Middle-Section Pagination: Implemented pagination buttons with hovering techniques.</li>
+  <li>Nav-bar: Implemented hovering techniques for the middle-section nav-bar. </li>
+  <li>Grids: Properly segmented all the grids according to the Figma design, applied appropriate background images to each grid, and added hovering transitions to both the grids and buttons for an attractive visual effect.</li>
+ <li>Pagination: Implemented pagination buttons with hovering techniques.</li>
  <li>Responsiveness: Ensured that all content is properly aligned for various screen resolutions and confirmed its full functionality.</li>
 </ul>
 
