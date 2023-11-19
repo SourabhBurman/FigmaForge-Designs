@@ -54,7 +54,7 @@ Use of semantic HTML tags to enhance accessibility and readability.</li>
 <li>Body Section : In the body section, I've implemented a visually appealing and functional area that includes an email subscription form and some eye-catching images to enhance the user experience.</li>
 <li>Email Subscription : Users can subscribe to updates and newsletters through the email subscription form.</li>
 <li>Images : I've included visually engaging images to enhance the overall presentation of the project.</li>
-<li>Responsiveness : Ensured that the header section remains fully functional and aesthetically pleasing on various devices and screen sizes. The navigation elements and layout adapt to provide a seamless experience for all users.</li>
+<li>Responsiveness : Ensured that the body section remains fully functional and aesthetically pleasing on various devices and screen sizes. The navigation elements and layout adapt to provide a seamless experience for all users.</li>
 </ul>
 
 ## Deepak Purohit (fw28_311)
