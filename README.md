@@ -53,7 +53,11 @@ Use of semantic HTML tags to enhance accessibility and readability.</li>
 
 ## Deepak Purohit (fw28_311)
 <ul>
- <li>Responsiveness: Ensured that the header section remains fully functional and aesthetically pleasing on various devices and screen sizes. The navigation elements and layout adapt to provide a seamless experience for all users.</li>
+ <li>Footer: Created footer with the help of flex-box Model and uses Flex-basis to make it in a desired ratio.</li>
+ <li>Latest-Post: Added latest posts/articles in a footer section about our website.</li>
+ <li>Social Media: Added social media handles as well as about us.</li>
+ <li>Footer-line: Ended with an aesthetic footer line ,mentioning copyright claims</li>
+ <li>Responsiveness: Ensured that the footer section remains fully functional and aesthetically pleasing on various devices and screen sizes for an optimal user experience.</li>
 </ul>
 <img style="width:500px;" src="https://github.com/SourabhBurman/honest-wing-579/assets/146980127/4de29010-4f4d-4f34-a418-c4f3871ccba3">
 
