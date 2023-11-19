@@ -52,6 +52,9 @@ Use of semantic HTML tags to enhance accessibility and readability.</li>
 <img style="width:500px;" src="https://github.com/SourabhBurman/honest-wing-579/assets/146980127/81e650dc-62ed-44de-89db-b536729eae0c">
 
 ## Deepak Purohit (fw28_311)
+<ul>
+ <li>Responsiveness: Ensured that the header section remains fully functional and aesthetically pleasing on various devices and screen sizes. The navigation elements and layout adapt to provide a seamless experience for all users.</li>
+</ul>
 <img style="width:500px;" src="https://github.com/SourabhBurman/honest-wing-579/assets/146980127/4de29010-4f4d-4f34-a418-c4f3871ccba3">
 
 ## Visnuraj K R (fw28_140)
