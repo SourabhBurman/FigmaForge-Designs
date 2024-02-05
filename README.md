@@ -1,5 +1,5 @@
-# Honest-wing-579
- Description - The Honest-wing-579 project, built with HTML, CSS, and SASS, underwent enhancements to improve aesthetics and the user experience, following the Figma design. We also employed semantic tags and utilized mixins, variables, and partials for code modularity and maintainability. The Project was about building portfolio and contact webpages and making them responsive for mobile screens.
+# FigmaForge Designs
+ Description - FigmaForge Designs, built with HTML, CSS, and SASS, underwent enhancements to improve aesthetics and the user experience, following the Figma design. We also employed semantic tags and utilized mixins, variables, and partials for code modularity and maintainability. The Project was about building portfolio and contact webpages and making them responsive for mobile screens.
 
 ## Key-Features -
 <ul>
